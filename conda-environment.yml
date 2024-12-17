@@ -1,0 +1,14 @@
+name: eplpredtest
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+    - beautifulsoup4
+    - jupyter
+    - lxml
+    - pandas
+    - requests
+    - scikit-learn
